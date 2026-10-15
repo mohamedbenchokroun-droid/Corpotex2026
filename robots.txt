@@ -1,0 +1,40 @@
+# corpotex.ma — textile publicitaire, vêtements de travail & EPI au Maroc
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Moteurs de réponse IA : bienvenus (contenu public du catalogue)
+User-agent: GPTBot
+Allow: /
+Disallow: /api/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /api/
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /api/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /api/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /api/
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+
+Sitemap: https://corpotex.ma/sitemap.xml
