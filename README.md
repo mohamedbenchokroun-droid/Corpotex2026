@@ -4,5 +4,4 @@ Site catalogue B2B de Corpotex (Yates Group, Témara, Maroc) : application JavaS
 
 - `shell.html` : gabarit source ; les pages `*.html` sont générées.
 - `js/data.js`, `js/products.js` : contenu et catalogue.
-- `tools/prerender.js` : génère les pages, `sitemap.xml` et `llms.txt` (nécessite `jsdom`).
 - `api/devis.php` : réception des demandes de devis (la configuration SMTP est sur le serveur, jamais dans ce dépôt).
